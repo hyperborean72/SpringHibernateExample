@@ -1,4 +1,3 @@
-nc# SpringHibernateExample
 Probation project for InfoBip. Hierarchy of Documents and DocumentItems related with "one-to-many" relationship is manipulated via Spring MVC 4 based UI.
 
 The app is configured with annotations
