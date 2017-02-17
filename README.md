@@ -6,8 +6,8 @@ The app is configured with annotations
 Validation is added for "create-update" operations
 Validation messages are read from resources/messages.properties
 
-Database configuration is administered via application.properties:
-update jdbc.driverClassName, jdbc.url, jdbc.username, jdbc.password etc with parameters for your DB
+Database configuration is administered from via resources/application.properties
+Set type, location and authentication parameters according to your local database
 
 SQL files for table creation are located in resources/sql
 
