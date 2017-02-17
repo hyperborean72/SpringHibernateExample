@@ -1,0 +1,7 @@
+CREATE TABLE INFOBIP.DOCUMENT(
+    id INT NOT NULL auto_increment,
+    name VARCHAR(100) NOT NULL,
+    date DATE NOT NULL,
+    code VARCHAR(30) NOT NULL UNIQUE,
+    PRIMARY KEY (id)
+);
